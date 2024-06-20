@@ -36,7 +36,7 @@ def query_pinecone(query, top_k):
 
 # Format Prompt for OpenAI
 def format_query(query, context, index):
-    context = context.matches[index]["metadata"]["abstract"]
+    context = context.matches[index]["metadata"] # You can edit this path to fit your Pinecone record structure
     query = f"question: {query} context: {context}"
     query = f"Please generate an answer to the question by pulling information from the context. Question: {query} Context: {context}"
     return query
