@@ -68,7 +68,7 @@ This Python script creates a Large Language Model (LLM) chain that employs Retri
 
 ### Built With
 
-* [![Python][python]][python-url]
+[![Python][python]][python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
