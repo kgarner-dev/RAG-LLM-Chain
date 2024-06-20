@@ -120,9 +120,10 @@ This Python script creates an LLM chain that employs RAG utilizing OpenAI and Pi
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+* Assisting researchers by retrieving relevant academic papers, patents, and technical documents
+* Assisting financial analysts by retrieving relevant financial reports, news articles, and market data.
+* Assisting writers and content creators by providing background information and references for their topics.
+* Providing technical support by retrieving relevant documentation, user manuals, and troubleshooting guides.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
