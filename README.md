@@ -161,9 +161,9 @@ Project Link: [https://github.com/kgarner-dev/RAG-LLM-Chain](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Lawyer Used ChatGPT In Court—And Cited Fake Cases. A Judge Is Considering Sanctions - Forbes](https://www.forbes.com/sites/mollybohannon/2023/06/08/lawyer-used-chatgpt-in-court-and-cited-fake-cases-a-judge-is-considering-sanctions/)
+* [What are AI hallucinations? - Google](https://cloud.google.com/discover/what-are-ai-hallucinations)
+* [What is RAG (Retrieval-Augmented Generation)? - Amazon](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
