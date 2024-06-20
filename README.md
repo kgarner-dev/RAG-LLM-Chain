@@ -53,7 +53,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This Python script creates a Large Language Model (LLM) chain that employs Retrieval-Augmented Generation (RAG) using OpenAI and Pinecone. RAG enhances the model's responses by retrieving relevant documents from a Pinecone index to provide contextually accurate information. This method improves the quality of the responses provided and gives you the power to personalize the results utilizing your own documents.
+In the summer of 2023, a news story began circulating reporting that a lawyer used ChatGPT to draft his court filings, only to later discover that the language model had referenced fabricated court cases in the draft. This is just one of many examples of the severe repercussions that can arise from the ‘hallucinations’ of these AI models.
+
+Hallucinations are incorrect or misleading information provided by AI language models. These hallucinations can occur for various reasons, one of the most prominent being the inclusion of biases and fictitious information in training data. While these large models are trained on millions of lines of text and content, much of it can include opinionated, falsified, or fictitious material. This can lead to the generation of skewed or false information by these models.
+
+One methodology to combat these hallucinations is the implementation of Retrieval Augmented Generation (RAG). RAG involves the use of an external knowledge base from which the LLM can generate its answers. This approach adds a layer of protection to language models by introducing an authoritative, personalized, and factual knowledge base to pull information and context from.
+
+This Python script creates an LLM chain that employs RAG utilizing OpenAI and Pinecone
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
