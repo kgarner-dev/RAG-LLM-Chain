@@ -182,18 +182,18 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[contributors-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[forks-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/network/members
+[stars-shield]: https://img.shields.io/github/stars/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[stars-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[issues-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/issues
+[license-shield]: https://img.shields.io/github/license/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[license-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/kalebgarner/
 [product-screenshot]: images/screenshot.png
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [python-url]: https://www.python.org/
