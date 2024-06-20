@@ -80,12 +80,10 @@ This Python script creates a Large Language Model (LLM) chain that employs Retri
 ### Prerequisites
 <br />
 * OpenAI
-  <br />
   First, you will need to get an OpenAI API Key at [https://openai.com/index/openai-api/](https://openai.com/index/openai-api/)
   1. After you get your API Key, you will need to pick out a embedding model (text-embedding-ada-002 is used in the code already), along with a GPT Model (gpt-3.5-turbo-16k-0613 is used in the code already)
-
-* OpenAI
-  <br />
+<br />
+* Pinecone
   Next, you will need to set up your Pinecone account and environment.
   1. Sign up for an account at [https://www.pinecone.io/](https://www.pinecone.io/)
   2. Create an Index
@@ -96,7 +94,6 @@ This Python script creates a Large Language Model (LLM) chain that employs Retri
     </ol>
   </details>
   3. Upload your files with the following information: a unique ID, vector embedding as the value, and the context as the metadata
-  <br />
   ```sh
   npm install npm@latest -g
   ```
