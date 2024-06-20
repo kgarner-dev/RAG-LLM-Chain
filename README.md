@@ -8,17 +8,13 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-<!-- PROJECT LOGO -->
+<!-- PROJECT HEADER -->
 <br />
 <div>
-  <a href="https://github.com/kgarner-dev/RAG-LLM-Chain">
-    <img src="images/logo.svg" alt="Logo" width="100" height="80" object-fit="cover">
-  </a>
 
 <h1>RAG LLM Chain</h1>
 
-  <p align="center">
+  <p>
     An LLM Chain Python Script utilizing Retrieval Augmented Generation (RAG)
     <br />
     <br />
@@ -46,7 +42,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -61,18 +56,13 @@
 
 This Python script creates a Large Language Model (LLM) chain that employs Retrieval-Augmented Generation (RAG) using OpenAI and Pinecone. RAG enhances the model's responses by retrieving relevant documents from a Pinecone index to provide contextually accurate information. This method improves the quality of the responses provided and gives you the power to personalize the results utilizing your own documents.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
 [![Python][python]][python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -88,23 +78,16 @@ This Python script creates a Large Language Model (LLM) chain that employs Retri
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/kgarner-dev/RAG-LLM-Chain.git
    ```
-3. Install NPM packages
+2. Install packages
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   pip3 install langchain pinecone-client langchain-openai
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -114,22 +97,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -147,8 +114,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -156,18 +121,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Kaleb Garner - [kgarner-dev](https://github.com/kgarner-dev)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/kgarner-dev/RAG-LLM-Chain](https://github.com/kgarner-dev/RAG-LLM-Chain)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -182,15 +143,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
 [contributors-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
 [forks-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/network/members
-[stars-shield]: https://img.shields.io/github/stars/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
 [stars-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
 [issues-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/issues
-[license-shield]: https://img.shields.io/github/license/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
 [license-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kalebgarner/
