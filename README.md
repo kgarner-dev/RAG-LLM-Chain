@@ -17,7 +17,6 @@
   <p>
     An LLM Chain Python Script utilizing Retrieval Augmented Generation (RAG)
     <br />
-    <br />
     <a href="https://github.com/kgarner-dev/RAG-LLM-Chain/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/kgarner-dev/RAG-LLM-Chain/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -87,6 +86,29 @@ This Python script creates a Large Language Model (LLM) chain that employs Retri
    pip3 install langchain pinecone-client langchain-openai
    ```
 
+### Instructions
+
+1. Run the Script
+   ```sh
+   python3 rag_chain.py
+   ```
+2. Enter Pinecone API
+   ```sh
+   Enter your Pinecone API Key: 
+   ```
+3. Enter Pinecone Index
+   ```sh
+   Enter your Pinecone Index Name:
+   ```
+4. Enter OpenAI API Key
+   ```sh
+   Enter your OpenAI API Key:
+   ```
+4. Enter your Question
+   ```sh
+   Enter your Question:
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
@@ -143,15 +165,15 @@ Project Link: [https://github.com/kgarner-dev/RAG-LLM-Chain](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
 [contributors-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
 [forks-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/network/members
-[stars-shield]: https://img.shields.io/github/stars/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
 [stars-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
 [issues-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/issues
-[license-shield]: https://img.shields.io/github/license/kgarner-dev/RAG-LLM-Chain/images/logo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/kgarner-dev/RAG-LLM-Chain.svg?style=for-the-badge
 [license-url]: https://github.com/kgarner-dev/RAG-LLM-Chain/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kalebgarner/
