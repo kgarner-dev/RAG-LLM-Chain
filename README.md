@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kgarner-dev/RAG-LLM-Chain">
-    <img src="images/logo.svg" alt="Logo" width="100" height="50">
+    <img src="images/logo.svg" alt="Logo" width="120" height="80" object-fit="cover">
   </a>
 
 <h3 align="center">RAG LLM Chain</h3>
