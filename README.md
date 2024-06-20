@@ -78,24 +78,13 @@ This Python script creates a Large Language Model (LLM) chain that employs Retri
 ## Getting Started
 
 ### Prerequisites
+
+1. Get an OpenAI API Key at [https://openai.com/index/openai-api/](https://openai.com/index/openai-api/)
+2. After you get your API Key, you will need to pick out a embedding model (text-embedding-ada-002 is used in the code already), along with a GPT Model (gpt-3.5-turbo-16k-0613 is used in the code already)
+3. Sign up for a Pinecone account at [https://www.pinecone.io/](https://www.pinecone.io/)
+4. Create a Pinecone Index and upload your files with the following information: a unique ID, vector embedding as the value, and the context as the metadata
+5. WARNING: When you create vector embeddings to upload to Pinecone, the dimensions of the Index you create need to match the embedding model you select (text-embedding-ada-002 has a dimension of 1536).
 <br />
-- OpenAI
-  1. Get an OpenAI API Key at [https://openai.com/index/openai-api/](https://openai.com/index/openai-api/)
-  2. After you get your API Key, you will need to pick out a embedding model (text-embedding-ada-002 is used in the code already), along with a GPT Model (gpt-3.5-turbo-16k-0613 is used in the code already)
-<br />
-- Pinecone
-  1. Sign up for an account at [https://www.pinecone.io/](https://www.pinecone.io/)
-  2. Create an Index
-  <details>
-  <summary>WARNING!</summary>
-    <ol>
-      <li>When you create vector embeddings to upload to Pinecone, the dimensions of the Index you create need to match the embedding model you select (text-embedding-ada-002 has a dimension of 1536).</li>
-    </ol>
-  </details>
-  3. Upload your files with the following information: a unique ID, vector embedding as the value, and the context as the metadata
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
